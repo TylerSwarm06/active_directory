@@ -46,11 +46,11 @@ Set-DnsClientServerAddress -InterfaceIndex 4 -ServerAddresses 192.168.1.38
 ```
 # Join Workstation to domain
 
-1. Repeat steps from above to set correct DNS
+1. Repeat steps from above to set correct DNS 
 
 2. Join Workstation to domain
 ```shell
 Add-Computer -DomainName xyz.com -Credential xyz\Administrator -Force
 ```
-3. This brings up a GUI login prompt. Enter the domain administrator credentials
+3. This brings up a GUI login prompt. Enter the domain administrator credentials. The workstation is now joined to the domain.
 
