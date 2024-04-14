@@ -54,3 +54,6 @@ Add-Computer -DomainName xyz.com -Credential xyz\Administrator -Force
 ```
 3. This brings up a GUI login prompt. Enter the domain administrator credentials. The workstation is now joined to the domain.
 
+# Creating Groups and Users
+1. Created ad_schema.json with group and users as a config file. 
+2. Created gen_ad.ps1 to generate AD environment from JSON config file.
